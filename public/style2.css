@@ -1,0 +1,27 @@
+body{
+    margin: auto;
+    padding: 0%;
+    display: block;
+  }
+  .sm-color{
+     background-color: #28251a;
+  }
+  .slider-container {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+
